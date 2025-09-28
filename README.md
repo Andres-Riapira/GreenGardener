@@ -1,24 +1,95 @@
-# GreenGardener 🌱
+````markdown
+# 🌱 GreenGardener
 
-Aplicación móvil y web para la gestión de tareas de jardinería.  
-Permite administrar plantas, calendario de riego, fertilización y control de actividades.
+Aplicación web para gestionar tu jardín de manera digital. Con GreenGardener podrás explorar plantas e insumos, crear un jardín virtual, acceder a servicios de jardinería, compartir consejos y participar en una comunidad dedicada al cuidado de la naturaleza.
 
-## 🚀 Tecnologías
-- Backend: Flask + SQLAlchemy + Marshmallow
-- Frontend: React Native
-- Base de datos: PostgreSQL
-- Autenticación: JWT
+---
+
+## 🚀 Características principales
+- **Registro e inicio de sesión de usuarios**  
+- **Exploración de plantas e insumos** con tarjetas visuales  
+- **Jardín virtual** para personalizar tu espacio verde  
+- **Servicios de jardinería** ofrecidos por expertos  
+- **Consejos de plantas** con tips y guías de cuidado  
+- **Comunidad** donde compartir experiencias  
+- **Sección de contacto** para asistencia y soporte  
+
+---
+
+## 🛠️ Tecnologías utilizadas
+- **Frontend:** [React](https://react.dev/) + [Vite](https://vitejs.dev/)  
+- **Estilos:** [TailwindCSS](https://tailwindcss.com/)  
+- **Ruteo:** [React Router](https://reactrouter.com/)  
+- **Backend:** Flask API (Python)  
+- **Base de datos:** Simulada (diccionarios) → lista para migrar a PostgreSQL/MySQL  
+
+---
+
+## ⚙️ Instalación y ejecución local
+
+### 1. Clonar el repositorio
+```bash
+git clone https://github.com/tuusuario/GreenGardener.git
+cd GreenGardener
+````
+
+### 2. Instalar dependencias
+
+```bash
+npm install
+```
+
+### 3. Iniciar servidor de desarrollo
+
+```bash
+npm run dev
+```
+
+La aplicación quedará disponible en:
+👉 `http://localhost:5173`
+
+---
 
 ## 📂 Estructura del proyecto
-- `src/` → Código principal del backend
-- `tests/` → Pruebas unitarias con Pytest
-- `migrations/` → Migraciones de base de datos
-- `utils/` → Utilidades (auth, helpers, etc.)
 
-## ⚙️ Instalación
-```bash
-git clone https://github.com/Andres-Riapira/GreenGardener.git
-cd GreenGardener
-pip install -r requirements.txt
-flask db upgrade
-flask run
+```
+GreenGardener/
+├── public/
+│   └── favicon.ico
+├── src/
+│   ├── assets/
+│   ├── components/
+│   │   ├── Navbar.jsx
+│   │   ├── Footer.jsx
+│   │   └── PlantCard.jsx
+│   ├── pages/
+│   │   ├── Home.jsx
+│   │   ├── Register.jsx
+│   │   ├── Plants.jsx
+│   │   ├── Garden.jsx
+│   │   ├── Services.jsx
+│   │   ├── Tips.jsx
+│   │   ├── Community.jsx
+│   │   └── Contact.jsx
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+├── package.json
+├── tailwind.config.js
+├── vite.config.js
+└── README.md
+```
+
+---
+
+## 🌍 Demo
+
+📸 **Capturas de pantalla disponibles en la carpeta de documentación**
+*(próximamente se podrá desplegar en Vercel o Netlify)*
+
+---
+
+## 👨‍💻 Autor
+
+Desarrollado por **Carlos Andrés Riapira Rubio**
+Inspirado en el trabajo y dedicación de su padre en el mundo de la jardinería. 🌿

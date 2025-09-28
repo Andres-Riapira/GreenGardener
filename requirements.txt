@@ -1,0 +1,12 @@
+Flask
+Flask-SQLAlchemy
+Flask-Migrate
+marshmallow
+marshmallow-sqlalchemy
+flask-jwt-extended
+PyJWT
+pytest
+pytest-flask
+gunicorn
+python-dotenv
+werkzeug
